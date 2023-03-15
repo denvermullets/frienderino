@@ -5109,6 +5109,7 @@ __metadata:
     "@types/react": ^18.0.27
     "@types/react-native": ^0.70.8
     expo-constants: ^14.0.2
+    expo-contacts: ^12.0.1
     expo-linking: ^3.2.3
     solito: ^2.3.0
   languageName: unknown
@@ -8082,6 +8083,7 @@ __metadata:
     babel-plugin-transform-inline-environment-variables: ^0.4.4
     expo: ^47.0.12
     expo-constants: ^14.0.2
+    expo-contacts: ^12.0.1
     expo-dev-client: ~2.0.1
     expo-font: ~11.0.1
     expo-linear-gradient: ~12.0.1
@@ -8146,6 +8148,17 @@ __metadata:
   peerDependencies:
     expo: "*"
   checksum: beca1604e8f3e16914dd9de8270647d987f5d8e21dd34099356753cc0ef367785a2fdb12234238ee56672002d29befc44006d3a984ec01b94029f3b651e89112
+  languageName: node
+  linkType: hard
+
+"expo-contacts@npm:^12.0.1":
+  version: 12.0.1
+  resolution: "expo-contacts@npm:12.0.1"
+  dependencies:
+    uuid: ^3.4.0
+  peerDependencies:
+    expo: "*"
+  checksum: bcd905b13740a62d91695477a8b8929a494d02c6b05968d439faff8a25d715d03c7ae80b6d542371e6e1d55ce5960def661c324f274098498ae2b91e83341705
   languageName: node
   linkType: hard
 

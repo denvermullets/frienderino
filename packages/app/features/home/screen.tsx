@@ -5,7 +5,8 @@ import { useLink } from "solito/link";
 
 export const HomeScreen = () => {
   const linkProps = useLink({
-    href: "/user/nate",
+    // href: "/user/nate",
+    href: "/contact-list",
   });
 
   return (
